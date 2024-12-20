@@ -1,10 +1,7 @@
-const assert = require('chai').assert;
+import { assert } from 'chai';
 
-const app = require('../app');
-
-
-describe('Simple test',function(){
-    if('should return hello message',function(){
-        assert.equal('Hello, Github action!','Hello, Github action!');
+describe('Simple test', function () {
+    it('should return hello message', function () {
+        assert.equal('Hello, Github action!', 'Hello, Github action!');
     });
-}); 
+});
