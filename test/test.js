@@ -7,4 +7,4 @@ describe('Simple test',function(){
     if('should return hello message',function(){
         assert.equal('Hello, Github action!','Hello, Github action!');
     });
-});
+}); 
